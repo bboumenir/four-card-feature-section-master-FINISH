@@ -1,0 +1,212 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+ }
+
+
+body , html { 
+     
+            width: 100%;
+            height: 100%;
+            font-family: 'Poppins', sans-serif; 
+            box-sizing: border-box;
+
+            background-color: hsl(0, 0%, 98%);
+ }
+
+
+html {
+         
+
+
+ }
+
+h1  {
+      font-weight: 100;
+
+ }
+
+
+h2  { 
+
+      font-weight: 900;
+
+
+
+
+}
+h3  { 
+
+      font-weight: 900;
+      font-size: 18;
+
+
+
+}
+
+
+
+
+
+p   { font-size: 12px;
+      padding-top: 1.3em; }
+
+
+h1 , h2 , p  { color: hsl(229, 6%, 40%); }
+
+
+img  {  
+       width: 50px;  
+       height: auto;
+       float: right;
+       margin-right:  1em;
+
+
+
+
+} 
+
+
+
+
+
+.contenaire { 
+
+           
+            
+            width: 100%;
+            height: ;
+
+            padding-bottom: 10em;
+
+
+
+ }
+
+
+.top_part { 
+
+         
+
+            text-align: center;
+            margin: ;
+            padding: 2em 2em 4em 2em;
+
+
+ }
+
+
+
+.bottom_part { 
+
+           
+
+            width: 100%;
+           
+
+            box-sizing: border-box;
+            
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+
+
+
+
+
+
+ }
+
+
+.card { 
+
+            
+
+            width: 18em;  
+            height: 11em;
+            margin: 1em;
+
+            padding-left: 1.5em; 
+            padding-top: 1.2em;
+
+            background-color: white ;
+             color: hsl(229, 6%, 40%);
+             box-sizing: border-box;
+            
+            box-shadow: 5px 5px 5px 5px #e4e3e3;
+            border-radius: 10px;
+            border: none;
+
+            border-top: solid 0.2em;
+           
+
+            
+
+
+
+            
+
+           
+
+
+
+ }
+
+
+.small_flex    {
+
+             
+
+              display: flex;
+              flex-direction: column;
+
+              margin: 0;
+              padding: 0;
+
+
+
+
+ }
+
+
+
+
+.one    {  
+          align-self: center ;
+          border-top-color:hsl(180, 62%, 55%);
+
+}
+.two    {
+           align-self: flex-end;
+           border-top-color:hsl(0, 78%, 62%);
+
+}
+.three   { 
+           align-self: flex-start;
+           border-top-color: hsl(34, 97%, 64%);
+
+
+
+
+
+          
+
+}
+.four     {
+            align-self: center;
+            border-top-color:hsl(212, 86%, 64%);
+
+   }
+
+
+
+
+
